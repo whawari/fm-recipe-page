@@ -446,6 +446,58 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: "Young Serif";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: local("Young Serif"),
+      url(/assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: local(Outfit),
+      url(/assets/fonts/outfit/static/Outfit-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+
+  font-style: normal;
+
+  font-weight: 600;
+
+  font-display: swap;
+
+  src: local(Outfit),
+      url(/assets/fonts/outfit/static/Outfit-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  src: local(Outfit),
+      url(/assets/fonts/outfit/static/Outfit-Bold.ttf) format("truetype");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -558,7 +610,10 @@ video {
   display: table;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-young-serif {
+  font-family: Young Serif, sans-serif;
+}
+
+.font-outfit {
+  font-family: Outfit, sans-serif;
 }
