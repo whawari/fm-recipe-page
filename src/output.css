@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -608,10 +608,6 @@ video {
 
 .table {
   display: table;
-}
-
-.font-young-serif {
-  font-family: Young Serif, sans-serif;
 }
 
 .font-outfit {
