@@ -9,7 +9,7 @@
     font-weight: 400;
     font-display: swap;
     src: local("Young Serif"),
-      url(/assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+      url(../assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
   }
 
   @font-face {
@@ -18,7 +18,7 @@
     font-weight: 400;
     font-display: swap;
     src: local(Outfit),
-      url(/assets/fonts/outfit/static/Outfit-Regular.ttf) format("truetype");
+      url(../assets/fonts/outfit/static/Outfit-Regular.ttf) format("truetype");
   }
 
   @font-face {
@@ -27,7 +27,7 @@
     font-weight: 600;
     font-display: swap;
     src: local(Outfit),
-      url(/assets/fonts/outfit/static/Outfit-SemiBold.ttf) format("truetype");
+      url(../assets/fonts/outfit/static/Outfit-SemiBold.ttf) format("truetype");
   }
 
   @font-face {
@@ -36,6 +36,6 @@
     font-weight: 700;
     font-display: swap;
     src: local(Outfit),
-      url(/assets/fonts/outfit/static/Outfit-Bold.ttf) format("truetype");
+      url(../assets/fonts/outfit/static/Outfit-Bold.ttf) format("truetype");
   }
 }
